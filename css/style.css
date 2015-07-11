@@ -6,7 +6,8 @@ body,div,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,input,select,textarea,span,form,a{
     box-sizing: border-box;
 }
 body{
-    font:14px/1.7 "Microsoft YaHei" sans-serif;
+    font:14px "Microsoft YaHei" sans-serif;
+    line-height: 1.7;
     color: #333;
 }
 img{border:none;}
@@ -286,7 +287,7 @@ h3.done {
     border: 1px solid #ccc;
     /*padding: 10px;*/
     width: 500px;
-    height: 400px;
+    height: 500px;
     left: 198px;
     position: absolute;
     top:-32px;
@@ -348,5 +349,5 @@ input:focus {
     font-size: 16px;
 }
 #editWindow .taskContent {
-    height: 306px;
+    height: 406px;
 }
